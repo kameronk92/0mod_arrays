@@ -37,3 +37,7 @@ p is_it_blue
 # to print the string 'harp'. although 'harp' is the second element in the array 'disc_molds'
 #it is in index position one because index counting starts at 0. 
 puts disc_molds[1]
+
+# I chose the method `count`. it is used to return the number of elements. there are 6 elements
+# in the `is_it_blue` array, so I expect it to return a value of 6
+puts is_it_blue.count
